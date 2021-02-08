@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/teknofile/docker-image-test.git', branch: 'master', credentialsId: 'teknofile-github-user-token'])
+        git([url: 'https://github.com/teknofile/docker-image-test.git', branch: 'main', credentialsId: 'teknofile-github-user-token'])
       }
     }
 
