@@ -1,5 +1,5 @@
 pipeline {
-  enviornment {
+  environment {
     imagename = "teknofile/docker-test-image"
     registryCredential = 'teknofile-dockerhub'
     dockerImage = ''
